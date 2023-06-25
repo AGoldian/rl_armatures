@@ -1,4 +1,4 @@
-def optimal_purchase(prices, max_items):
+def optimal_purchase(prices, max_items=10):
     # определяем стартовое значение запаса товара как 0
     current_items = 0
     days_number = len(prices)
