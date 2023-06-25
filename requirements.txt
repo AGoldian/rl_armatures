@@ -1,6 +1,6 @@
 pandas
 openpyxl
-matplotplib
+matplotlib
 numpy
 keras
 tensorflow
