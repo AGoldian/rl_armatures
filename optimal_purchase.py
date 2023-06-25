@@ -11,7 +11,7 @@ def optimal_purchase(prices, max_items):
         if current_items >= days_number - day:
             max_period_to_predict = 0
         quantity_to_buy = 1 if current_items == 0 else 0
-        for i in range(1, max_period_to_predict):
+        for i in range(1, min(max_period_to_predict, max_items - current_items + 1)):
             if prices[day + i] > prices[day]:
                 quantity_to_buy += 1
             else:
