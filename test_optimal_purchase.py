@@ -1,7 +1,5 @@
 from unittest import TestCase
-
 from parameterized import parameterized
-
 from optimal_purchase import optimal_purchase
 
 
