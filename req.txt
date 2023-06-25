@@ -1,8 +1,6 @@
 pandas
 openpyxl
-<<<<<<< HEAD
 matplotplib
 numpy
-=======
-matplotlib
->>>>>>> c55ef92d490a23dd60d8ade347faea23dbb92a40
+keras
+tensorflow
